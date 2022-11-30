@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0.3rem 0 0.3rem 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+html {
+    cursor: url('cursor/cursor.cur'), auto;
+}
+
+body {
+    padding: 2rem 0 0 3rem;
+}
+
+button {
+    height: 1.2rem;
+    background-color: lightgray;
+    border: none;
+}
+
+
+
+.BotãoComSombraAdoteUmAmigo {
+    height: 2rem;
+    width: 12rem;
+    margin: 3rem 1.5rem 0 0;
+    box-shadow: 0px 4px 4px gray;
+}
+
+.BotãoComSombraAdoteUmAmigo a,
+.BotaoSejaVoluntario a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+}
+
+.BotaoSejaVoluntario {
+    width: 10rem;
+    height: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.XDoMenu {
+    width: 1.5rem;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.CirculoCinza {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+.ContainerDosCachorros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ContainerDosCachorros button {
+    width: 4rem;
+    height: 1.5rem;
+}
+
+.ContainerDosCachorros button a {
+    text-decoration: none;
+}
+
+footer {
+    margin: 4rem 0 0 0;
+}
